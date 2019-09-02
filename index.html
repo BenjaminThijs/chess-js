@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Chess-js</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <table id="stop-yelling-mom">
+            <tr>
+                <td id="chess-board-grid">
+                    <table id="chess-board">
+                        <tr class="8">
+                            <td class="A"><div class="white-tile top-tile left-tile"></div></td>
+                            <td class="B"><div class="black-tile top-tile"></div></td>
+                            <td class="C"><div class="white-tile top-tile"></div></td>
+                            <td class="D"><div class="black-tile top-tile"></div></td>
+                            <td class="E"><div class="white-tile top-tile"></div></td>
+                            <td class="F"><div class="black-tile top-tile"></div></td>
+                            <td class="G"><div class="white-tile top-tile"></div></td>
+                            <td class="H"><div class="black-tile top-tile right-tile"></div></td>
+                        </tr>
+                        <tr class="7">
+                            <td class="A"><div class="black-tile left-tile"></div></td>
+                            <td class="B"><div class="white-tile"></div></td>
+                            <td class="C"><div class="black-tile"></div></td>
+                            <td class="D"><div class="white-tile"></div></td>
+                            <td class="E"><div class="black-tile"></div></td>
+                            <td class="F"><div class="white-tile"></div></td>
+                            <td class="G"><div class="black-tile"></div></td>
+                            <td class="H"><div class="white-tile right-tile"></div></td>
+                        </tr>
+                        <tr class="6">
+                            <td class="A"><div class="white-tile left-tile"></div></td>
+                            <td class="B"><div class="black-tile"></div></td>
+                            <td class="C"><div class="white-tile"></div></td>
+                            <td class="D"><div class="black-tile"></div></td>
+                            <td class="E"><div class="white-tile"></div></td>
+                            <td class="F"><div class="black-tile"></div></td>
+                            <td class="G"><div class="white-tile"></div></td>
+                            <td class="H"><div class="black-tile right-tile"></div></td>
+                        </tr>
+                        <tr class="5">
+                            <td class="A"><div class="black-tile left-tile"></div></td>
+                            <td class="B"><div class="white-tile"></div></td>
+                            <td class="C"><div class="black-tile"></div></td>
+                            <td class="D"><div class="white-tile"></div></td>
+                            <td class="E"><div class="black-tile"></div></td>
+                            <td class="F"><div class="white-tile"></div></td>
+                            <td class="G"><div class="black-tile"></div></td>
+                            <td class="H"><div class="white-tile right-tile"></div></td>
+                        </tr>
+                        <tr class="4">
+                            <td class="A"><div class="white-tile left-tile"></div></td>
+                            <td class="B"><div class="black-tile"></div></td>
+                            <td class="C"><div class="white-tile"></div></td>
+                            <td class="D"><div class="black-tile"></div></td>
+                            <td class="E"><div class="white-tile"></div></td>
+                            <td class="F"><div class="black-tile"></div></td>
+                            <td class="G"><div class="white-tile"></div></td>
+                            <td class="H"><div class="black-tile right-tile"></div></td>
+                        </tr>
+                        <tr class="3">
+                            <td class="A"><div class="black-tile left-tile"></div></td>
+                            <td class="B"><div class="white-tile"></div></td>
+                            <td class="C"><div class="black-tile"></div></td>
+                            <td class="D"><div class="white-tile"></div></td>
+                            <td class="E"><div class="black-tile"></div></td>
+                            <td class="F"><div class="white-tile"></div></td>
+                            <td class="G"><div class="black-tile"></div></td>
+                            <td class="H"><div class="white-tile right-tile"></div></td>
+                        </tr>
+                        <tr class="2">
+                            <td class="A"><div class="white-tile left-tile"></div></td>
+                            <td class="B"><div class="black-tile"></div></td>
+                            <td class="C"><div class="white-tile"></div></td>
+                            <td class="D"><div class="black-tile"></div></td>
+                            <td class="E"><div class="white-tile"></div></td>
+                            <td class="F"><div class="black-tile"></div></td>
+                            <td class="G"><div class="white-tile"></div></td>
+                            <td class="H"><div class="black-tile right-tile"></div></td>
+                        </tr>
+                        <tr class="1">
+                            <td class="A"><div class="black-tile bottom-tile left-tile"></div></td>
+                            <td class="B"><div class="white-tile bottom-tile"></div></td>
+                            <td class="C"><div class="black-tile bottom-tile"></div></td>
+                            <td class="D"><div class="white-tile bottom-tile"></div></td>
+                            <td class="E"><div class="black-tile bottom-tile"></div></td>
+                            <td class="F"><div class="white-tile bottom-tile"></div></td>
+                            <td class="G"><div class="black-tile bottom-tile"></div></td>
+                            <td class="H"><div class="white-tile bottom-tile right-tile"></div></td>
+                        </tr>
+                    </table>
+                </td>
+                <td id="side-panel">
+                    <div id="side-control">
+                        <h1>Trying not to put something offensive here</h1>
+
+                        <button id="reset-button">Reset</button>
+                        <button id="clear-button">Clear</button>
+
+                        <select id="color-selector">
+                            <option value="white">White</option>
+                            <option value="black">Black</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <script src="app.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+.white-tile {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    padding: 0;
+    margin: -4px; /* don't hurt me, this is html weirdness */
+    display: inline-block;
+}
+
+.black-tile {
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    padding: 0;
+    margin: -4px; /* don't hurt me, this is html weirdness */
+    display: inline-block;
+}
+
+.top-tile {
+    border-top: 3px orange solid;
+}
+
+.right-tile {
+    border-right: 3px orange solid;
+}
+
+.left-tile {
+    border-left: 3px orange solid;
+}
+
+.bottom-tile {
+    border-bottom: 3px orange solid;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+td {
+    vertical-align: top;
+}
