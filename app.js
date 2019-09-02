@@ -2,6 +2,9 @@ function setPiece(piece, position) {
     let img = document.createElement('img');
     img.src = "resources/" +  piece + ".png";
 
+    // Easiest way to keep track of positions
+    img.alt = piece + " " + position;
+
     let row = document.getElementsByClassName(position.substring(1,2))[0];
     let col = row.getElementsByClassName(position.substring(0,1))[0];
 
@@ -31,7 +34,7 @@ function setInitialState(color) {
 
     // Top pawns
     for (let i = 8; i > 0; i--) {
-        setPiece(top + '-pawn', String.fromCharCode(96 + i) + '7');
+        setPiece(top + '-pawn', String.fromCharCode(64 + i) + '7');
     }
 
     // Bot main pieces
@@ -46,14 +49,14 @@ function setInitialState(color) {
 
     // Bot pawns
     for (let i = 8; i > 0; i--) {
-        setPiece(bot + '-pawn', String.fromCharCode(96 + i) + '2');
+        setPiece(bot + '-pawn', String.fromCharCode(64 + i) + '2');
     }
 }
 
 function clearBoard() {
     for (let i = 1; i < 9; i++) {
         for (let j = 1; j < 9; j++) {
-            clearSquare(String.fromCharCode(96 + i) + j);
+            clearSquare(String.fromCharCode(64 + i) + j);
         }
     }
 }
